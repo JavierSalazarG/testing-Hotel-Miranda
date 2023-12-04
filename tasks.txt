@@ -1,0 +1,35 @@
+Room: 
+    1. Properties: 
+        
+        1- Name:
+        
+            - Comprobar si Es un String. ✔️
+            - Tener un minimo de 3 caracteres.
+        
+        2- Bookings:
+
+            - Comprobar sin es un array. ✔️
+
+        3- Rate: 
+
+            - Comprobar si es un number. ✔️
+            - Comprobar si tene 2 decimales.
+            - tener un minimo de 0.
+
+        4- Discount:
+
+            - Comprobar si es un number. ✔️
+            - Minio es 0.
+            - Maximo es 100.
+
+    2. Methods:
+
+        - Si buscas una fecha y esta ocupado devulve verdadero. ✔️
+        - El mes completo es (30) es el 100%, comprueba el porcentage que tendria la cantidad de dias que suman desde startDate y
+
+
+Booking:
+
+    2. methods:
+
+        - devuelve la tarifa, incluidos los descuentos en habitaciones y reservas✔️

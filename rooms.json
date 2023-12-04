@@ -1,0 +1,61 @@
+[
+  {
+"name": "suite",
+"rate": 150.0,
+"discount": 8
+},
+
+{
+"name": "estándar",
+"rate": 100.0,
+"discount": 3
+},
+
+{
+"name": "executivo",
+"rate": 180.0,
+"discount": 10
+},
+
+{
+"name": "deluxe",
+"rate": 200.0,
+"discount": 15
+},
+
+{
+"name": "premium",
+"rate": 220.0,
+"discount": 12
+},
+
+{
+"name": "familiar",
+"rate": 250.0,
+"discount": 20
+},
+
+{
+"name": "individual",
+"rate": 80.0,
+"discount": 5
+},
+
+{
+"name": "suite presidencial",
+"rate": 300.0,
+"discount": 18
+},
+
+{
+"name": "económico",
+"rate": 90.0,
+"discount": 7
+},
+
+{
+"name": "lujo",
+"rate": 280.0,
+"discount": 25
+}
+]
