@@ -13,8 +13,7 @@ Room:
         3- Rate: 
 
             - Comprobar si es un number. ✔️
-            - Comprobar si tene 2 decimales.
-            - tener un minimo de 0.
+            
 
         4- Discount:
 
@@ -25,7 +24,7 @@ Room:
     2. Methods:
 
         - Si buscas una fecha y esta ocupado devulve verdadero. ✔️
-        - El mes completo es (30) es el 100%, comprueba el porcentage que tendria la cantidad de dias que suman desde startDate y
+        - occupancyPercentage(startDate, endDate) devuelve el porcentaje de días con ocupación dentro del rango de fechas proporcionadas (inclusive)✔️
 
 
 Booking:

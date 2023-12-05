@@ -37,6 +37,16 @@ describe("Room", () => {
     const fueraRango = "2023-12-16";
     expect(room1.isOcupped(fueraRango)).toBe(true);
   });
+  test("occupancyPercentage devuelve el porcentaje correcto de ocupación", () => {
+    const room5 = new Room(
+      roomsJson[2].name,
+      bookingsJson,
+      roomsJson[2].rate,
+      roomsJson[2].discount
+    );
+
+    expect(room5.occupancyPercentage("2023-1-1", "2023-12-31")).toBe(18);
+  });
 });
 
 describe("Booking", () => {
